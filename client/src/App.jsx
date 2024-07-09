@@ -7,6 +7,8 @@ import SignUp from "./Pages/SignUp";
 import SellerDashBoard from "./Pages/SellerDashBoard";
 import BuyerDashBoard from "./Pages/BuyerDashBoard";
 import Navbar from "./Components/Navbar";
+import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/seller/profile" element={<SellerDashBoard />} />
           <Route path="/buyer/profile" element={<BuyerDashBoard />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>
     </>
